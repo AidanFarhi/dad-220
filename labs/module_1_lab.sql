@@ -1,0 +1,19 @@
+DROP DATABASE IF EXISTS farhi;
+
+CREATE DATABASE farhi;
+
+SHOW DATABASES;
+
+USE farhi;
+
+CREATE TABLE tb2 (
+    user_id VARCHAR(50)
+);
+
+SHOW TABLES;
+
+DESCRIBE tb2;
+
+ALTER TABLE tb2 ADD newfield VARCHAR(25);
+
+DESCRIBE tb2;
